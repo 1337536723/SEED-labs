@@ -35,11 +35,11 @@ have designed activities to conduct the same attack in a local network environme
 victim DNS server are on the same network, where packet sniffing is possible. In this remote attack lab,
 packet sniffing is not possible, so the attack becomes much more challenging than the local attack. This lab
 covers the following topics:
-• DNS and how it works
-• DNS server setup
-• DNS cache poisoning attack
-• Spoofing DNS responses
-• Packet sniffing and spoofing 
+- DNS and how it works
+- DNS server setup
+- DNS cache poisoning attack
+- Spoofing DNS responses
+- Packet sniffing and spoofing 
 
 **Sniffing and Spoofing**<br>
 Description: Packet sniffing and spoofing are two important concepts in network security; they are two major threats in network communication. Being able to understand these two threats is essential for understanding security
