@@ -24,6 +24,23 @@ first set up and configure a DNS server, and then they will try various DNS atta
 The difficulties of attacking local victims versus remote DNS servers are quite different. Therefore, we have developed two labs, one focusing on local DNS attacks, and the other on remote DNS attack. This lab
 focuses on local attacks. 
 
+**DNS Remote**<br>
+Description: The objective of this lab is for students to gain the first-hand experience on the remote DNS cache poisoning
+attack, also called the Kaminsky DNS attack. DNS (Domain Name System) is the Internet’s phone book;
+it translates hostnames to IP addresses and vice versa. This translation is through DNS resolution, which
+happens behind the scene. DNS Pharming attacks manipulate this resolution process in various ways, with
+an intent to misdirect users to alternative destinations, which are often malicious. This lab focuses on a
+particular DNS Pharming attack technique, called DNS Cache Poisoning attack. In another SEED Lab, we
+have designed activities to conduct the same attack in a local network environment, i.e., the attacker and the
+victim DNS server are on the same network, where packet sniffing is possible. In this remote attack lab,
+packet sniffing is not possible, so the attack becomes much more challenging than the local attack. This lab
+covers the following topics:
+• DNS and how it works
+• DNS server setup
+• DNS cache poisoning attack
+• Spoofing DNS responses
+• Packet sniffing and spoofing 
+
 **Sniffing and Spoofing**<br>
 Description: Packet sniffing and spoofing are two important concepts in network security; they are two major threats in network communication. Being able to understand these two threats is essential for understanding security
 measures in networking. There are many packet sniffing and spoofing tools, such as Wireshark, Tcpdump, Netwox, Scapy, etc. Some of these tools are widely used by security experts, as well as by
